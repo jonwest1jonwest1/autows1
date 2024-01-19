@@ -24,4 +24,7 @@
       validate_certs: no
     register: as3_output
 
+  - name: DEBUG as3_output
+    debug:
+      msg: " OUTPUT {{ as3_output }}"
 ...  
